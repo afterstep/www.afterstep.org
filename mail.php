@@ -27,7 +27,7 @@ The purpose of the Help forum is to provide help and solutions to issues related
 <br />
 <h3 id="bugs"><b>Bug Report Tracker :</b></h3><ul>
 <p>
-The purpose of the <a href="http://sourceforge.net/tracker/?group_id=30">Bug Report</a> tracker is to follow up on bugs that require technical explanations not fit for the Help and Discussion Forums.
+The purpose of the <a href="https://github.com/afterstep/afterstep/issues">Bug Report</a> tracker is to follow up on bugs that require technical explanations not fit for the Help and Discussion Forums.
 </p>
 </ul>
 <hr>
