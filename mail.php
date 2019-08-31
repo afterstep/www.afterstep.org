@@ -8,7 +8,7 @@ active_section_start("mail_title_a.png");
 <b>IRC Chat and Support :</b><ul>
 <p>
 Think you know it all? Have nothing better to do? Have a question? 
-Come and hang out in <code>#afterstep</code> on the <a href="http://freenode.net/irc_servers.shtml">FreeNode IRC network</a>. Be polite and patient; it may take a while (or hours) to get a response.
+Come and hang out in the <code><a href="https://webchat.freenode.net/#afterstep">#afterstep</a></code> channel on the <a href="https://www.freenode.net/">FreeNode IRC network</a>. Be polite and patient; it may take a while (or hours) to get a response.
 </p>
 </ul>
 <hr>
