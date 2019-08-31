@@ -360,7 +360,7 @@ There is also #afterstep on freenode.net IRC servers. You can view current activ
 
 <OL><B>2.2. What are the AfterStep mailing lists, and where are their archives?</B><br>
 <P class="dense">
-There are three AfterStep mailing lists.  as-users, as-devel and as-bugs.</P>
+At this time, there is the AfterStep mailing lists for users: as-users.</P>
 <DL class="dense">
 <DT class="dense"><B>as-users.</B></DT>
 <DD class="dense">
@@ -372,33 +372,17 @@ and ideas (<I>NO</I> LiteSTEP, &nbsp;<? local_doc_url("visualdoc.php","Window","
 pertain to AfterStep, please).  
 Subscribe by entering your e-mail at : 
 
-<A href="http://mail.afterstep.org/mailman/listinfo/as-users/">http://mail.afterstep.org/mailman/listinfo/as-users/</A>
-</P>
-</DD>
-
-<DT class="dense"><B>as-devel.</B></DT>
-<DD class="dense">
-<P class="dense">
-as-devel is the development AfterStep mailing list.  It is used to send notices about commits to CVS repository. 
-Subscribe by entering your e-mail at : 
-
-<A href="http://mail.afterstep.org/mailman/listinfo/as-devel/">http://mail.afterstep.org/mailman/listinfo/as-devel/</A>
-</P>
-</DD>
-
-<DT class="dense"><B>as-bugs.</B></DT>
-<DD class="dense">
-<P class="dense">
-as-bugs is the AfterStep mailing list for submiting bug reports.  It is geared toward development
-questions, ideas and complaints.  Subscribe by entering your e-mail at : 
-
-<A href="http://mail.afterstep.org/mailman/listinfo/as-bugs/">http://mail.afterstep.org/mailman/listinfo/as-bugs/</A>
+<A href="http://lists.afterstep.org/private.cgi/as-users-afterstep.org/">http://lists.afterstep.org/listinfo.cgi/as-users-afterstep.org</A>
 </P>
 </DD>
 </DL>
 <P class="dense">
-The mailing list archives can be read at 
+The mailing list archives for as-users and as-devel (no longer in use) up to 2009 can be read at 
 <A href="http://www.tigr.net/afterstep/mail/">http://www.tigr.net/afterstep/mail/</A>.
+</P>
+<P class="dense">
+The current mailing list archives for as-users can found at 
+<A href="http://lists.afterstep.org/private.cgi/as-users-afterstep.org/">http://lists.afterstep.org/private.cgi/as-users-afterstep.org/</A>, but please note you need to sign up to the mailing list to view those.
 </P>
 </OL>
 
