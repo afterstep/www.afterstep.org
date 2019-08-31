@@ -19,7 +19,7 @@ which can be downloaded as
    	<a href=\"ftp://ftp.afterstep.org/stable/AfterStep-2.2.12.tar.gz\">a tarball</a> or 
 	<a href=\"ftp://ftp.afterstep.org/stable/AfterStep-2.2.12.tar.bz2\">a bzip2 archive</a>.<br />
    Alternatively from GitHub :
-	<a href=\"https://github.com/sashavasko/afterstep-devel/archive/2.2.12.tar.gz\">tar.gz</a><br /><br />
+	<a href=\"https://github.com/afterstep/afterstep/archive/2.2.12.tar.gz\">tar.gz</a><br /><br />
 <br />
 
 <b>Also available for download a standalone version of libAfterImage 1.20</b> (released January 15, 2011)
@@ -211,13 +211,13 @@ Development of AfterStep is done using git for revision control. Instructions fo
 <hr>
 <br />
 <b>Access to the latest source from <a href=\"https://github.com/\">GitHub</a> :</b><ul>
-$ git clone https://github.com/sashavasko/afterstep-devel.git<br />
+$ git clone https://github.com/afterstep/afterstep.git<br />
 [you'll see it begin to download]<br />
 now simply go about attempting to compile it as normal.<br /><br />
 </ul>
 <b>Viewing GitHub repository online :</b>
 <ul>
-As an alternative, you can also browse GitHub with your <a href=\"https://github.com/sashavasko/afterstep-devel\">browser</a>.<br>
+As an alternative, you can also browse GitHub with your <a href=\"https://github.com/afterstep/afterstep\">browser</a>.<br>
 </ul>";}
 ?>
 <?
