@@ -1,0 +1,627 @@
+<text id="wao_site_text_a"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>WWW.AfterStep.ORG</text>
+<text id="wao_site_text_i"    font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>WWW.AfterStep.ORG</text>
+<text id="wiki_site_text_a"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Wiki</text>
+<text id="wiki_site_text_i"    font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>Wiki</text>
+<text id="bugtrack_site_text_a" font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Bug Tracker</text>
+<text id="bugtrack_site_text_i" font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>Bug Tracker</text>
+<text id="devel_site_text_a"  font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Development Site</text>
+<text id="devel_site_text_i"  font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>Development Site</text>
+<text id="dockapps_site_text_a" font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Dockapps.org</text>
+<text id="dockapps_site_text_i" font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>Dockapps.org</text>
+<text id="aterm_site_text_a"  font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>aterm</text>
+<text id="aterm_site_text_i"  font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>aterm</text>
+<text id="apps_site_text_a"   font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Apps</text>
+<text id="apps_site_text_i"   font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>Apps</text>
+<text id="ftp_site_text_a"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>FTP Archive</text>
+<text id="ftp_site_text_i"    font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>FTP Archive</text>
+<text id="cvs_site_text_a"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>GitHub repository</text>
+<text id="cvs_site_text_i"    font="DefaultSans.ttf" point=16 fgcolor=Inactive1Text>GitHub repository</text>
+
+<text id="data_title_text"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Icons, etc.</text>
+<text id="look_title_text"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Looks and theming</text>
+<text id="old_ss_title_text"  font="DefaultSans.ttf" point=16 fgcolor=Inactive2Text>Older screenshots</text>
+<text id="news_title_text"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Latest AfterStep news</text>
+<text id="mail_title_text"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Contacts and Mailing Lists</text>
+<text id="download_title_text" font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Download AfterStep</text>
+<text id="welcome_title_text" font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>Welcome to the Official AfterStep website</text>
+<text id="as20new_title_text" font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>AfterStep version 2.0</text>
+<text id="documentation_title_text" font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>AfterStep documentation and support</text>
+<text id="aterm_title_text"    font="DefaultSans.ttf" point=16 fgcolor=ActiveText type=3>aterm - The AfterStep terminal emulator.</text>
+
+<text id="data_hint_text"    font="DefaultSans.ttf" point=12 fgcolor="#FF000000">icons, etc.</text>
+<text id="look_hint_text"    font="DefaultSans.ttf" point=12 fgcolor="#FF000000">look</text>
+<text id="news_hint_text"    font="DefaultSans.ttf" point=12 fgcolor="#FF000000">news</text>
+<text id="info_hint_text" font="DefaultSans.ttf" point=12 fgcolor="#FF000000">infos</text>
+<text id="mail_hint_text"    font="DefaultSans.ttf" point=12 fgcolor="#FF000000">contacts</text>
+<text id="download_hint_text" font="DefaultSans.ttf" point=12 fgcolor="#F00F0000">downloads</text>
+<text id="welcome_hint_text" font="DefaultSans.ttf" point=12 fgcolor="#FF000000">welcome</text>
+<text id="as20new_hint_text" font="DefaultSans.ttf" point=12 fgcolor="#FF000000">new</text>
+<text id="documentation_hint_text" font="DefaultSans.ttf" point=12 fgcolor="#FF000000">docs</text>
+<text id="aterm_hint_text"    font="DefaultSans.ttf" point=12 fgcolor="#FF000000">aterm</text>
+
+
+<text id="Crimson_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Crimson</text>
+<text id="Crimson_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Crimson</text>
+<text id="Deep_Red_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Deep Red</text>
+<text id="Deep_Red_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Deep Red</text>
+<text id="Gold_On_Blue_cs_name" font="Default.ttf" point=16 fgcolor="HighInactiveText">Gold On Blue</text>
+<text id="Gold_On_Blue_cs_name_s" font="Default.ttf" point=16 fgcolor="HighActiveText">Gold On Blue</text>
+<text id="Green_Sea_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Green Sea</text>
+<text id="Green_Sea_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Green Sea</text>
+<text id="Lime_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Lime</text>
+<text id="Lime_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Lime</text>
+<text id="NeXTish_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">NeXT-ish</text>
+<text id="NeXTish_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">NeXT-ish</text>
+<text id="Peru_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Peru</text>
+<text id="Peru_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Peru</text>
+<text id="Purple_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Purple</text>
+<text id="Purple_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Purple</text>
+<text id="Sea_Water_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Sea Water</text>
+<text id="Sea_Water_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Sea Water</text>
+<text id="Silver_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Silver</text>
+<text id="Silver_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Silver</text>
+<text id="Stormy_Skies_cs_name" font="Default.ttf" point=16 fgcolor="HighInactiveText">Stormy Skies</text>
+<text id="Stormy_Skies_cs_name_s" font="Default.ttf" point=16 fgcolor="HighActiveText">Stormy Skies</text>
+<text id="Turquoise_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Turquoise</text>
+<text id="Turquoise_cs_name_s" 	font="Default.ttf" point=16 fgcolor="HighActiveText">Turquoise</text>
+<text id="Washed_Blue_cs_name" 	font="Default.ttf" point=16 fgcolor="HighInactiveText">Washed Blue</text>
+<text id="Washed_Blue_cs_name_s" font="Default.ttf" point=16 fgcolor="HighActiveText">Washed Blue</text>
+
+<composite id=documentation_icon merge=clip>
+	<img src="logos/AfterStep4"/>
+	<scale x=0 y=18 width=40 height=40><img src="normal/Bookshelf"/></scale>
+</composite>
+<img id=info_icon src"normal/Info"/>
+<composite id=download_icon>
+	<img src="large/NetworkedGlobe"/>
+	<scale x=14 y=14 width=42 height=42><img src="normal/Package"/></scale>
+</composite>
+<img id=look_icon src="normal/EyeInMonitor2Shadow"/>
+<img id=mail_icon src="normal/MailBox2"/>
+<img id=news_icon src="normal/Newspaper"/>
+<img id=home_icon src="normal/House"/>
+<img id=data_icon src="normal/Mona"/>
+<img id=aterm_icon src="logos/aterm"/>
+
+<bevel id=wharf_tile colors="Inactive2Light black" border="2 2 3 3" solid=0>
+	<gradient colors="#30222222 alpha(30,Inactive2Dark) alpha(40,Inactive2Light) alpha(60,Active) alpha(40,ActiveLight)"
+	  	  offsets="0.0 0.3 0.5 0.8 1.0" width=64 height=64 angle=45/>
+</bevel>
+
+
+<save format=jpeg compress=5 replace=1 dst="out/bugtrack_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+        <composite>
+                <gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$bugtrack_site_text_a.width+10        
+                          height=$bugtrack_site_text_a.height+6/>
+                <recall x=5 y=3 srcid=bugtrack_site_text_a/>
+        </composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/bugtrack_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+        <composite>
+                <gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$bugtrack_site_text_a.width+10              
+                          height=$bugtrack_site_text_a.height+6/>
+                <recall x=5+($bugtrack_site_text_a.width-$bugtrack_site_text_i.width)/2 y=3 srcid=bugtrack_site_text_i/>
+        </composite>
+</bevel>                                            
+</save>
+
+
+
+
+
+<save format=jpeg compress=5 replace=1 dst="out/wiki_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$wiki_site_text_a.width+10
+                          height=$wiki_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=wiki_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/wiki_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$wiki_site_text_a.width+10
+                          height=$wiki_site_text_a.height+6/>
+		<recall x=5+($wiki_site_text_a.width-$wiki_site_text_i.width)/2 y=3 srcid=wiki_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+
+
+
+
+<save format=jpeg compress=5 replace=1 dst="out/wao_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$wao_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=wao_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/wao_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$wao_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5+($wao_site_text_a.width-$wao_site_text_i.width)/2 y=3 srcid=wao_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/devel_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$devel_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=devel_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/devel_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$devel_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5+($devel_site_text_a.width-$devel_site_text_i.width)/2 y=3 srcid=devel_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/dockapps_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+			  width=$dockapps_site_text_a.width+10
+			  height=$dockapps_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=dockapps_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/dockapps_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+			  width=$dockapps_site_text_a.width+10
+			  height=$dockapps_site_text_a.height+6/>
+		<recall x=5+($dockapps_site_text_a.width-$dockapps_site_text_i.width)/2 y=3 srcid=dockapps_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/aterm_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$aterm_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=aterm_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/aterm_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$aterm_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5+($aterm_site_text_a.width-$aterm_site_text_i.width)/2 y=3 srcid=aterm_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/apps_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$apps_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=apps_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/apps_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$apps_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5+($apps_site_text_a.width-$apps_site_text_i.width)/2 y=3 srcid=apps_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/ftp_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$ftp_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=ftp_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/ftp_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$ftp_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5+($ftp_site_text_a.width-$ftp_site_text_i.width)/2 y=3 srcid=ftp_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/cvs_site_btn_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="ActiveDark ActiveLight"
+                          width=$cvs_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5 y=3 srcid=cvs_site_text_a/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/cvs_site_btn_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 3" solid=0>
+	<composite>
+		<gradient angle=45 colors="Inactive1Dark Inactive1Light"
+                          width=$cvs_site_text_a.width+10
+                          height=$wao_site_text_a.height+6/>
+		<recall x=5+($cvs_site_text_a.width-$cvs_site_text_i.width)/2 y=3 srcid=cvs_site_text_i/>
+	</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/background.jpg">
+<composite op=add>
+	<gradient angle=90 width=32 height=768 colors="BaseDark BaseLight BaseDark" offsets="0.0 0.5 1.0"/>
+	<scale width=32 height=32 tile=1><img src="tiles/SimpleTexture"/></scale>
+</composite>
+</save>
+
+
+<save format=png compress=9 replace=1 dst="out/home.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=8 y=8 srcid=home_icon/>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/download.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=8 y=8 srcid=download_icon/>
+	<recall x=2 y=49 srcid=download_hint_text/>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/documentation.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=4 y=4 srcid=documentation_icon/>
+	<recall x=2 y=49 srcid=documentation_hint_text/>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/info.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=4 y=4 srcid=info_icon/>
+	<recall x=2 y=49 srcid=info_hint_text/>
+</composite>
+</save>
+
+
+<save format=png compress=9 replace=1 dst="out/look.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=8 y=8 srcid=look_icon/>
+	<recall x=2 y=49 srcid=look_hint_text/>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/mail.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=8 y=8 srcid=mail_icon/>
+	<recall x=2 y=49 srcid=mail_hint_text/>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/news.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=8 y=8 srcid=news_icon/>
+	<recall x=2 y=49 srcid=news_hint_text/>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/data.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=8 y=8 srcid=data_icon/>
+	<recall x=2 y=49 srcid=data_hint_text/>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/aterm.png">
+<composite>
+	<recall srcid=wharf_tile/>
+	<recall x=8 y=8 srcid=aterm_icon/>
+	<recall x=2 y=49 srcid=aterm_hint_text/>
+</composite>
+</save>
+
+
+<save format=jpeg compress=5 replace=1 dst="out/titlebar_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 4" solid=0>
+<composite>
+	<gradient id="titlebar_back_a" angle=45 width=642 height=28 colors="ActiveDark ActiveLight"/>
+	<img x=1+2 	y=5 src="buttons/default-switchwindow-light"/>
+	<img x=1+2+16+2 y=5 src="buttons/default-menu-light"/>
+	<img x=$titlebar_back_a.width-3-2-16-2-16-2-16 	y=5 src="buttons/default-iconize-dark"/>
+	<img x=$titlebar_back_a.width-3-2-16-2-16   	y=5 src="buttons/default-shade-dark"/>
+	<img x=$titlebar_back_a.width-3-2-16 		y=5 src="buttons/default-kill-dark"/>
+</composite>
+</bevel>
+</save>
+
+
+<save format=jpeg compress=5 replace=1 dst="out/titlebar_a_wide.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 4" solid=0>
+<composite>
+	<gradient id="titlebar_back_a_wide" angle=45 width=732 height=28 colors="ActiveDark ActiveLight"/>
+	<img x=1+2 	y=5 src="buttons/default-switchwindow-light"/>
+	<img x=1+2+16+2 y=5 src="buttons/default-menu-light"/>
+	<img x=$titlebar_back_a_wide.width-3-2-16-2-16-2-16 	y=5 src="buttons/default-iconize-dark"/>
+	<img x=$titlebar_back_a_wide.width-3-2-16-2-16   	y=5 src="buttons/default-shade-dark"/>
+	<img x=$titlebar_back_a_wide.width-3-2-16 		y=5 src="buttons/default-kill-dark"/>
+</composite>
+</bevel>
+</save>
+
+
+
+<save format=jpeg compress=5 replace=1 dst="out/titlebar_i.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 4" solid=0>
+<composite>
+	<gradient id="titlebar_back_i" angle=45 width=642 height=28 colors="Inactive1Dark Inactive1Light"/>
+	<img x=1+2 	y=5 src="buttons/default-switchwindow-light"/>
+	<img x=1+2+16+2 y=5 src="buttons/default-menu-light"/>
+	<img x=$titlebar_back_a.width-3-2-16-2-16-2-16 	y=5 src="buttons/default-iconize-dark"/>
+	<img x=$titlebar_back_a.width-3-2-16-2-16   	y=5 src="buttons/default-shade-dark"/>
+	<img x=$titlebar_back_a.width-3-2-16 		y=5 src="buttons/default-kill-dark"/>
+</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/titlebar_i2.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 4" solid=0>
+<composite>
+	<gradient id="titlebar_back_i2" angle=45 width=642 height=28 colors="Inactive2Dark Inactive2Light"/>
+	<img x=1+2 	y=5 src="buttons/default-switchwindow-light"/>
+	<img x=1+2+16+2 y=5 src="buttons/default-menu-light"/>
+	<img x=$titlebar_back_a.width-3-2-16-2-16-2-16 	y=5 src="buttons/default-iconize-dark"/>
+	<img x=$titlebar_back_a.width-3-2-16-2-16   	y=5 src="buttons/default-shade-dark"/>
+	<img x=$titlebar_back_a.width-3-2-16 		y=5 src="buttons/default-kill-dark"/>
+</composite>
+</bevel>
+</save>
+
+
+<save format=png compress=9 replace=1 dst="out/look_title_a.png">
+	<recall srcid="look_title_text"/>
+</save>
+<save format=png compress=9 replace=1 dst="out/mail_title_a.png">
+        <recall srcid="mail_title_text"/>
+</save>
+<save format=png compress=9 replace=1 dst="out/news_title_a.png">
+	<recall srcid="news_title_text"/>
+</save>
+<save format=png compress=9 replace=1 dst="out/download_title_a.png">
+	<recall srcid="download_title_text"/>
+</save>
+<save format=png compress=9 replace=1 dst="out/welcome_title_a.png">
+	<recall srcid="welcome_title_text"/>
+</save>
+<save format=png compress=9 replace=1 dst="out/as20new_title_a.png">
+	<recall srcid="as20new_title_text"/>
+</save>
+<save format=png compress=9 replace=1 dst="out/documentation_title_a.png">
+	<recall srcid="documentation_title_text"/>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/old_ss_title_i2.png">
+	<recall srcid="old_ss_title_text"/>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/aterm_title_a.png">
+        <recall srcid="aterm_title_text"/>
+</save>
+
+
+<save format=jpeg compress=5 replace=1 dst="out/lowbar_a.jpg">
+<composite>
+	<bevel colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="ActiveDark ActiveLight"/>
+	</bevel>
+	<bevel x=28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+		<gradient angle=45 width=640-28-28 height=7 colors="ActiveDark ActiveLight"/>
+	</bevel>
+	<bevel x=640-28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="ActiveDark ActiveLight"/>
+	</bevel>
+</composite>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/lowbar_a_wide.jpg">
+<composite>
+	<bevel colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="ActiveDark ActiveLight"/>
+	</bevel>
+	<bevel x=28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+		<gradient angle=45 width=730-28-28 height=7 colors="ActiveDark ActiveLight"/>
+	</bevel>
+	<bevel x=730-28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="ActiveDark ActiveLight"/>
+	</bevel>
+</composite>
+</save>
+
+
+<save format=jpeg compress=5 replace=1 dst="out/lowbar_i.jpg">
+<composite>
+	<bevel colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="Inactive1Dark Inactive1Light"/>
+	</bevel>
+	<bevel x=28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+		<gradient angle=45 width=640-28-28 height=7 colors="Inactive1Dark Inactive1Light"/>
+	</bevel>
+	<bevel x=640-28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="Inactive1Dark Inactive1Light"/>
+	</bevel>
+</composite>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/lowbar_i2.jpg">
+<composite>
+	<bevel colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="Inactive2Dark Inactive2Light"/>
+	</bevel>
+	<bevel x=28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+		<gradient angle=45 width=640-28-28 height=7 colors="Inactive2Dark Inactive2Light"/>
+	</bevel>
+	<bevel x=640-28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="Inactive2Dark Inactive2Light"/>
+	</bevel>
+</composite>
+</save>
+
+<save format=png compress=9 replace=1 dst="out/shaded_back.png">
+<composite>
+	<solid width=642 height=1 color="#7F444444"/>
+	<solid width=1 height=1 color="#FF000000"/>
+	<solid x=641 width=1 height=1 color="#FF000000"/>
+</composite>
+</save>
+
+
+<save format=png compress=9 replace=1 dst="out/shaded_back_wide.png">
+<composite>
+	<solid width=732 height=1 color="#7F444444"/>
+	<solid width=1 height=1 color="#FF000000"/>
+	<solid x=731 width=1 height=1 color="#FF000000"/>
+</composite>
+</save>
+
+
+<save format=png compress=9 replace=1 dst="out/spacer.png">
+<composite>
+	<solid width=642 height=30 color="alpha(0,Base)"/>
+</composite>
+</save>
+
+
+
+<save format=png compress=9 replace=1 dst="out/Crimson.png">		<recall srcid="Crimson_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Crimson_s.png">		<recall srcid="Crimson_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Deep_Red.png">		<recall srcid="Deep_Red_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Deep_Red_s.png">		<recall srcid="Deep_Red_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Gold_On_Blue.png">	<recall srcid="Gold_On_Blue_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Gold_On_Blue_s.png">	<recall srcid="Gold_On_Blue_cs_name_s"/></save>
+<save format=png compress=9 replace=1 dst="out/Green_Sea.png">		<recall srcid="Green_Sea_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Green_Sea_s.png">	<recall srcid="Green_Sea_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Lime.png">		<recall srcid="Lime_cs_name"/>		</save>
+<save format=png compress=9 replace=1 dst="out/Lime_s.png">		<recall srcid="Lime_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/NeXTish.png">		<recall srcid="NeXTish_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/NeXTish_s.png">		<recall srcid="NeXTish_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Peru.png">		<recall srcid="Peru_cs_name"/>		</save>
+<save format=png compress=9 replace=1 dst="out/Peru_s.png">		<recall srcid="Peru_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Purple.png">		<recall srcid="Purple_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Purple_s.png">		<recall srcid="Purple_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Sea_Water.png">		<recall srcid="Sea_Water_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Sea_Water_s.png">	<recall srcid="Sea_Water_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Silver.png">		<recall srcid="Silver_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Silver_s.png">		<recall srcid="Silver_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Stormy_Skies.png">	<recall srcid="Stormy_Skies_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Stormy_Skies_s.png">	<recall srcid="Stormy_Skies_cs_name_s"/></save>
+<save format=png compress=9 replace=1 dst="out/Turquoise.png">		<recall srcid="Turquoise_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Turquoise_s.png">	<recall srcid="Turquoise_cs_name_s"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Washed_Blue.png">	<recall srcid="Washed_Blue_cs_name"/>	</save>
+<save format=png compress=9 replace=1 dst="out/Washed_Blue_s.png">	<recall srcid="Washed_Blue_cs_name_s"/>	</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/cs_menu_titlebar_a.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 4" solid=0>
+<composite>
+	<gradient id="cs_menu_titlebar_back_a" angle=45 width=220 height=28 colors="HighActiveDark HighActiveLight"/>
+	<img x=1+2 	y=5 src="buttons/default-switchwindow-light"/>
+	<img x=1+2+16+2 y=5 src="buttons/default-menu-light"/>
+	<img x=1+2+16+2+16+2 y=5 src="buttons/default-pin-light"/>
+	<text x=1+2+16+2+16+2+16+5 y=5 font="DefaultFancy.ttf" point=17 fgcolor=ActiveText>Color Schemes</text>
+	<img x=$cs_menu_titlebar_back_a.width-3-2-16-2-16   	y=5 src="buttons/default-shade-dark"/>
+	<img x=$cs_menu_titlebar_back_a.width-3-2-16 		y=5 src="buttons/default-kill-dark"/>
+</composite>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/cs_mini.jpg">
+<composite>
+	<gradient width=24 height=24 angle=45 colors="BaseDark BaseLight"/>
+	<gradient x=5 y=6 width=10 height=6 angle=45 colors="Inactive1Dark Inactive1Light"/>
+	<gradient x=10 y=9 width=10 height=6 angle=45 colors="ActiveDark ActiveLight"/>
+	<gradient x=7 y=13 width=10 height=6 angle=45 colors="Inactive2Dark Inactive2Light"/>
+</composite>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/cs_menu_item.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 4" solid=0>
+	<gradient width=$cs_menu_titlebar_back_a.width height=28 colors="HighInactiveBackDark HighInactiveBackLight"/>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/cs_menu_item_s.jpg">
+<bevel colors="#FFbbbbbb black" border="2 1 4 4" solid=0>
+	<gradient width=$cs_menu_titlebar_back_a.width height=28 colors="HighActiveBackLight HighActiveBackDark"/>
+</bevel>
+</save>
+
+<save format=jpeg compress=5 replace=1 dst="out/cs_menu_lowbar_a.jpg">
+<composite>
+	<bevel colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="HighActiveDark HighActiveLight"/>
+	</bevel>
+	<bevel x=28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+		<gradient angle=45 width=$cs_menu_titlebar_back_a.width-56 height=7 colors="HighActiveDark HighActiveLight"/>
+	</bevel>
+	<bevel x=$cs_menu_titlebar_back_a.width-28 colors="#FFbbbbbb black" border="4 2 4 3" solid=0>
+	       	<gradient angle=45 width=28 height=7 colors="HighActiveDark HighActiveLight"/>
+	</bevel>
+</composite>
+</save>
+
+
+
+

@@ -1,0 +1,500 @@
+<img id="fore"     		src="common/fore.jpg"/>
+<scale width=100 height=100 id="back"><tile tint="#FF9F9F9F"><img src="tiles/Gray"/></tile></scale>
+<img id="logo_icon" 	src="logos/AfterStep5"/>
+<recall id="title_fore"       	srcid="fore"/>
+<composite id="title_back">
+	<recall srcid="back" tile=1/>
+	<img src="guistuff.com.0207/title.png"/>
+</composite>
+<composite id="corner_back">
+	<recall srcid="back" tile=1/>
+	<img src="guistuff.com.0207/topleft.png"/>
+</composite>
+<composite id="menu_title_back">
+	<recall srcid="back" tile=1 clip_y="120"/>
+	<img src="guistuff.com.0207/menu_title.png"/>
+</composite>
+
+<composite id="menu_item_back" keep-transparency="0" op="allanon">
+	<crop height=20 width=188>
+		<pad left="34" color="#00000000"><img src="guistuff.com.0207/menu_item.png"/></pad>
+	</crop>
+</composite>
+
+<crop  	id="menu_item_l2_back" height=18><recall srcid="menu_item_back"/></crop>
+<crop  	id="menu_bottom_back"><pad left="27" color="#00000000"><img src="guistuff.com.0207/menu_bottom.png"/></pad></crop>
+
+<text id="title_text" 		font=DefaultFancy.ttf point=38 fgimage="title_fore">libAfterImage</text>
+<text id="version_text" 	font=DefaultFancy.ttf point=16 fgcolor=#ff000000>current version is 1.20 released on 15-Jan-2010</text>
+<text id="renderer_text" 	font=DefaultSans.ttf point=11 fgcolor=#FF000000>Rendered with libAfterImage/ascompose.</text>
+<text id="guistuff_text" 	font=DefaultSans.ttf point=13 spacing=1 fgcolor=#FF000000>GUIStuff.com</text>
+
+<text id="updated_text" 	font=DefaultSans.ttf point=13 spacing=0 fgcolor=#ff000000>Last updated on Aug. 2, 2007 by Sasha Vasko</text>
+<text id="counter_text_left" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>Visited</text>
+<text id="counter_text_right" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>times since July 10, 2001</text>
+<text id="counter_0_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>0</text>
+<text id="counter_1_text" 	font=DefaultSans.ttf point=13 spacing=0 fgcolor=#ff000000>1</text>
+<text id="counter_2_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>2</text>
+<text id="counter_3_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>3</text>
+<text id="counter_4_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>4</text>
+<text id="counter_5_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>5</text>
+<text id="counter_6_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>6</text>
+<text id="counter_7_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>7</text>
+<text id="counter_8_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>8</text>
+<text id="counter_9_text" 	font=DefaultSans.ttf point=13 spacing=2 fgcolor=#ff000000>9</text>
+
+<solid id="menu_item_fore" color="#FFffffff" width="2" height="2"/>
+
+<text id="intro_text"    font=DefaultSans.ttf point=15 fgimage="menu_item_fore">Introduction</text>
+<text id="features_text" font=DefaultSans.ttf point=15 fgimage="menu_item_fore">Features</text>
+<text id="scrshots_text" font=DefaultSans.ttf point=15 fgimage="menu_item_fore">Screenshots</text>
+	<text id="ss_sub1_text"  font=DefaultSans.ttf point=13 fgimage="menu_item_fore">Blending</text>
+	<text id="ss_sub2_text"  font=DefaultSans.ttf point=13 fgimage="menu_item_fore">Text/gradients</text>
+	<text id="ss_sub3_text"  font=DefaultSans.ttf point=13 fgimage="menu_item_fore">Image Quality</text>
+	<text id="ss_sub4_text"  font=DefaultSans.ttf point=13 fgimage="menu_item_fore">Quantization</text>
+<text id="getcode_text"  font=DefaultSans.ttf point=15 fgimage="menu_item_fore">Download</text>
+<text id="doc_text"      font=DefaultSans.ttf point=15 fgimage="menu_item_fore">Documentation</text>
+	<text id="apiref_text"   font=DefaultSans.ttf point=13 fgimage="menu_item_fore">API reference</text>
+	<text id="examples_text" font=DefaultSans.ttf point=13 fgimage="menu_item_fore">Examples</text>
+	<text id="ascompose_text" font=DefaultSans.ttf point=13 fgimage="menu_item_fore">ASCompose</text>
+<text id="support_text"  font=DefaultSans.ttf point=15 fgimage="menu_item_fore">Support</text>
+<text id="todo_text"     font=DefaultSans.ttf point=15 fgimage="menu_item_fore">TODO</text>
+
+
+<save id="title_save" dst="out/title" format="jpeg" compress="10">
+<composite id="title">
+	<recall srcid="title_back"/>
+	<recall srcid="title_text" x=97 y=21 tint="#FF000000"/>
+	<recall srcid="title_text" x=95 y=19/>
+	<recall srcid="version_text" x=115 y=65/>
+	<recall srcid="renderer_text" x=45 y=100/>
+</composite>
+</save>
+
+<save id="corner_save" dst="out/corner" format="jpg" compress="10">
+<composite id="corner">
+	<recall srcid="corner_back"/>
+	<recall srcid="guistuff_text" x=1 y=1/>
+</composite>
+</save>
+
+<save id="menu_title_save" dst="out/menu_title" format="jpg" compress="10">
+<composite id="menu_title">
+	<recall srcid="menu_title_back"/>
+	<recall srcid="logo_icon" tint="#2F7F7F7F" x=52 y=-1/>
+</composite>
+</save>
+
+<save id="text_back_save" dst="out/text_back" format="jpg" compress="10">
+<composite id="text_back">
+	<recall srcid="back" tint="#FF4F8F70" clip_x=200 clip_y=120 clip_width=100 clip_height=100/>
+</composite>
+</save>
+
+<save id="background_save" dst="out/background" format="jpg" compress="10">
+	<recall srcid="back"/>
+</save>
+
+<save id="menu_selection" dst="out/menu_selection" format="gif">
+<pad bottom=8 color="#00000000">
+<bevel colors="#FF003300 #FF003300" border="0 2 1 2">
+	<solid width=12 height=5 color="#FF4F8F70"/>
+</bevel>
+</pad>
+</save>
+
+<save id="menu_intro_save" dst="out/menu_item_intro" format="jpg" compress=5>
+<composite id="menu_intro">
+	<recall srcid="back" tile=1 clip_y="225" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=225 clip_height=20 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="intro_text" x=63 y=1 tint="#FF000000"/>
+	<recall srcid="intro_text" x=62/>
+</composite>
+</save>
+
+<save id="menu_intro_hi_save" dst="out/menu_item_intro_hi" format="jpg" compress=5>
+<composite id="menu_introhi_">
+	<recall srcid="back" tile=1 clip_y="225" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=225 clip_height=20 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="intro_text" x=63 y=1 tint="#FF002F1F"/>
+	<recall srcid="intro_text" x=62/>
+</composite>
+</save>
+
+<save id="menu_features_save" dst="out/menu_item_features" format="jpg" compress=5>
+<composite id="menu_features">
+	<recall srcid="back" tile=1 clip_y="245" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=245 clip_height=20 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="features_text" x=63 y=1 tint="#FF000000"/>
+	<recall srcid="features_text" x=62/>
+</composite>
+</save>
+<save id="menu_features_hi_save" dst="out/menu_item_features_hi" format="jpg" compress=5>
+<composite id="menu_features_hi">
+	<recall srcid="back" tile=1 clip_y="245" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=245 clip_height=20 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="features_text" x=63 y=1 tint="#FF002F1F"/>
+	<recall srcid="features_text" x=62/>
+</composite>
+</save>
+
+
+<save id="menu_ss_save" dst="out/menu_item_ss" format="jpg" compress=5>
+<composite id="menu_ss">
+	<recall srcid="back" tile=1 clip_y="265" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=265 clip_height=20 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="scrshots_text" x=63 y=1 tint="#FF000000"/>
+	<recall srcid="scrshots_text" x=62/>
+</composite>
+</save>
+<save id="menu_ss_save_hi" dst="out/menu_item_ss_hi" format="jpg" compress=5>
+<composite id="menu_ss_hi">
+	<recall srcid="back" tile=1 clip_y="265" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=265 clip_height=20 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="scrshots_text" x=63 y=1 tint="#FF002F1F"/>
+	<recall srcid="scrshots_text" x=62/>
+</composite>
+</save>
+
+<save id="menu_ss_sub1_save" dst="out/menu_item_ss_sub1" format="jpg" compress=5>
+<composite id="menu_ss_sub1">
+	<recall srcid="back" tile=1 clip_y="285" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=285 clip_height=18 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="ss_sub1_text" x=71 y=1 tint="#FF000000"/>
+	<recall srcid="ss_sub1_text" x=70/>
+</composite>
+</save>
+<save id="menu_ss_sub1_hi_save" dst="out/menu_item_ss_sub1_hi" format="jpg" compress=5>
+<composite id="menu_ss_sub1_hi">
+	<recall srcid="back" tile=1 clip_y="285" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=285 clip_height=18 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="ss_sub1_text" x=71 y=1 tint="#FF002F1F"/>
+	<recall srcid="ss_sub1_text" x=70/>
+</composite>
+</save>
+
+<save id="menu_ss_sub2_save" dst="out/menu_item_ss_sub2" format="jpg" compress=5>
+<composite id="menu_ss_sub2">
+	<recall srcid="back" tile=1 clip_y="303" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=303 clip_height=18 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="ss_sub2_text" x=71 y=1 tint="#FF000000"/>
+	<recall srcid="ss_sub2_text" x=70/>
+</composite>
+</save>
+<save id="menu_ss_sub2_hi_save" dst="out/menu_item_ss_sub2_hi" format="jpg" compress=5>
+<composite id="menu_ss_sub2_hi">
+	<recall srcid="back" tile=1 clip_y="303" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=303 clip_height=18 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="ss_sub2_text" x=71 y=1 tint="#FF002F1F"/>
+	<recall srcid="ss_sub2_text" x=70/>
+</composite>
+</save>
+
+<save id="menu_ss_sub3_save" dst="out/menu_item_ss_sub3" format="jpg" compress=5>
+<composite id="menu_ss_sub3">
+	<recall srcid="back" tile=1 clip_y="321" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=321 clip_height=18 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="ss_sub3_text" x=71 y=1 tint="#FF000000"/>
+	<recall srcid="ss_sub3_text" x=70/>
+</composite>
+</save>
+<save id="menu_ss_sub3_hi_save" dst="out/menu_item_ss_sub3_hi" format="jpg" compress=5>
+<composite id="menu_ss_sub3_hi">
+	<recall srcid="back" tile=1 clip_y="321" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=321 clip_height=18 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="ss_sub3_text" x=71 y=1 tint="#FF002F1F"/>
+	<recall srcid="ss_sub3_text" x=70/>
+</composite>
+</save>
+
+<save id="menu_ss_sub4_save" dst="out/menu_item_ss_sub4" format="jpg" compress=5>
+<composite id="menu_ss_sub4">
+	<recall srcid="back" tile=1 clip_y="339" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=339 clip_height=18 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="ss_sub4_text" x=71 y=1 tint="#FF000000"/>
+	<recall srcid="ss_sub4_text" x=70/>
+</composite>
+</save>
+<save id="menu_ss_sub4_hi_save" dst="out/menu_item_ss_sub4_hi" format="jpg" compress=5>
+<composite id="menu_ss_sub4_hi">
+	<recall srcid="back" tile=1 clip_y="339" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=339 clip_height=18 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="ss_sub4_text" x=71 y=1 tint="#FF002F1F"/>
+	<recall srcid="ss_sub4_text" x=70/>
+</composite>
+</save>
+
+<save id="menu_getcode_save" dst="out/menu_item_getcode" format="jpg" compress=5>
+<composite id="menu_getcode">
+	<recall srcid="back" tile=1 clip_y="357" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=285 clip_height=20 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="getcode_text" x=63 y=1 tint="#FF000000"/>
+	<recall srcid="getcode_text" x=62/>
+</composite>
+</save>
+<save id="menu_getcode_hi_save" dst="out/menu_item_getcode_hi" format="jpg" compress=5>
+<composite id="menu_getcode_hi">
+	<recall srcid="back" tile=1 clip_y="357" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=285 clip_height=20 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="getcode_text" x=63 y=1 tint="#FF002F1F"/>
+	<recall srcid="getcode_text" x=62/>
+</composite>
+</save>
+
+<save id="menu_doc_save" dst="out/menu_item_doc" format="jpg" compress=5>
+<composite id="menu_doc">
+	<recall srcid="back" tile=1 clip_y="377" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=305 clip_height=20 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="doc_text" x=63 y=1 tint="#FF000000"/>
+	<recall srcid="doc_text" x=62/>
+</composite>
+</save>
+<save id="menu_doc_hi_save" dst="out/menu_item_doc_hi" format="jpg" compress=5>
+<composite id="menu_doc_hi">
+	<recall srcid="back" tile=1 clip_y="377" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=305 clip_height=20 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="doc_text" x=63 y=1 tint="#FF002F1F"/>
+	<recall srcid="doc_text" x=62/>
+</composite>
+</save>
+
+<save id="menu_apiref_save" dst="out/menu_item_apiref" format="jpg" compress=5>
+<composite id="menu_apiref">
+	<recall srcid="back" tile=1 clip_y="397" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=325 clip_height=18 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="apiref_text" x=71 y=1 tint="#FF000000"/>
+	<recall srcid="apiref_text" x=70/>
+</composite>
+</save>
+<save id="menu_apiref_hi_save" dst="out/menu_item_apiref_hi" format="jpg" compress=5>
+<composite id="menu_apiref_hi">
+	<recall srcid="back" tile=1 clip_y="397" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=325 clip_height=18 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="apiref_text" x=71 y=1 tint="#FF002F1F"/>
+	<recall srcid="apiref_text" x=70/>
+</composite>
+</save>
+
+<save id="menu_examples_save" dst="out/menu_item_examples" format="jpg" compress=5>
+<composite id="menu_examples">
+	<recall srcid="back" tile=1 clip_y="415" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=343 clip_height=18 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="examples_text" x=71 y=1 tint="#FF000000"/>
+	<recall srcid="examples_text" x=70/>
+</composite>
+</save>
+<save id="menu_examples_hi_save" dst="out/menu_item_examples_hi" format="jpg" compress=5>
+<composite id="menu_examples_hi">
+	<recall srcid="back" tile=1 clip_y="415" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=343 clip_height=18 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="examples_text" x=71 y=1 tint="#FF002F1F"/>
+	<recall srcid="examples_text" x=70/>
+</composite>
+</save>
+
+<save id="menu_ascompose_save" dst="out/menu_item_ascompose" format="jpg" compress=5>
+<composite id="menu_ascompose">
+	<recall srcid="back" tile=1 clip_y="433" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=343 clip_height=18 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="ascompose_text" x=71 y=1 tint="#FF000000"/>
+	<recall srcid="ascompose_text" x=70/>
+</composite>
+</save>
+<save id="menu_ascompose_hi_save" dst="out/menu_item_ascompose_hi" format="jpg" compress=5>
+<composite id="menu_ascompose_hi">
+	<recall srcid="back" tile=1 clip_y="433" clip_height="18"/>
+	<recall srcid="menu_item_l2_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=343 clip_height=18 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="ascompose_text" x=71 y=1 tint="#FF002F1F"/>
+	<recall srcid="ascompose_text" x=70/>
+</composite>
+</save>
+
+<save id="menu_support_save" dst="out/menu_item_support" format="jpg" compress=5>
+<composite id="menu_support">
+	<recall srcid="back" tile=1 clip_y="451" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=361 clip_height=20 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="support_text" x=63 y=1 tint="#FF000000"/>
+	<recall srcid="support_text" x=62/>
+</composite>
+</save>
+<save id="menu_support_hi_save" dst="out/menu_item_support_hi" format="jpg" compress=5>
+<composite id="menu_support_hi">
+	<recall srcid="back" tile=1 clip_y="451" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=361 clip_height=20 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="support_text" x=63 y=1 tint="#FF002F1F"/>
+	<recall srcid="support_text" x=62/>
+</composite>
+</save>
+
+<save id="menu_todo_save" dst="out/menu_item_todo" format="jpg" compress=5>
+<composite id="menu_todo">
+	<recall srcid="back" tile=1 clip_y="471" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=381 clip_height=20 clip_width=107 tint="#FF7F5500"/>
+	<recall srcid="todo_text" x=63 y=1 tint="#FF000000"/>
+	<recall srcid="todo_text" x=62/>
+</composite>
+</save>
+<save id="menu_todo_hi_save" dst="out/menu_item_todo_hi" format="jpg" compress=5>
+<composite id="menu_todo_hi">
+	<recall srcid="back" tile=1 clip_y="471" clip_height="20"/>
+	<recall srcid="menu_item_back"/>
+	<recall srcid="back" tile=1 x=60 clip_x=60 clip_y=381 clip_height=20 clip_width=107 tint="#FF9F7500"/>
+	<recall srcid="todo_text" x=63 y=1 tint="#FF002F1F"/>
+	<recall srcid="todo_text" x=62/>
+</composite>
+</save>
+
+<save id="menu_bottom_save" dst="out/menu_bottom" format="jpg" compress=5>
+<composite id="menu_bottom">
+	<recall srcid="back" tile=1 clip_y="491"/>
+	<recall srcid="menu_bottom_back"/>
+</composite>
+</save>
+
+<rotate id="bottombar_back" angle=90>
+  <crop id="column" srcx=167 width=20>
+	<recall srcid="menu_item_back"/>
+  </crop>
+</rotate>
+
+<solid id="black" color="#FF101010" width=380 height=2/>
+
+<save id="bottom_bar_save" dst="out/bottom_bar" format="jpg" compress=5>
+<composite id="bottom_bar">
+	<recall srcid="black" clip_width=366 clip_height=21/>
+	<recall srcid="bottombar_back" x=1 clip_width=364/>
+	<recall srcid="updated_text" x=11 y=2/>
+</composite>
+</save>
+
+<save id="counter_bar_left_save" dst="out/counter_bar_left" format="jpg" compress=5>
+<composite id="counter_bar_left">
+	<recall srcid="black" clip_width=61 clip_height=21/>
+	<recall srcid="bottombar_back" x=1 clip_width=60/>
+	<recall srcid="counter_text_left" x=11 y=2/>
+</composite>
+</save>
+<save id="counter_bar_right_save" dst="out/counter_bar_right" format="jpg" compress=5>
+<composite id="counter_bar_right">
+	<recall srcid="black" clip_width=200 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=199/>
+	<recall srcid="counter_text_right" x=11 y=2/>
+</composite>
+</save>
+
+<save id="counter_0_save" dst="out/counter_0" format="jpg" compress=5>
+<composite id="counter_0">
+	<recall srcid="black" clip_width=10 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=10/>
+	<recall srcid="counter_0_text" x=1 y=2/>
+</composite>
+</save>
+
+<save id="counter_1_save" dst="out/counter_1" format="jpg" compress=5>
+<composite id="counter_1">
+	<recall srcid="black" clip_width=8 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=8/>
+	<recall srcid="counter_1_text" x=1 y=2/>
+</composite>
+</save>
+
+<save id="counter_2_save" dst="out/counter_2" format="jpg" compress=5>
+<composite id="counter_2">
+	<recall srcid="black" clip_width=8 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=8/>
+	<recall srcid="counter_2_text" x=1 y=2 clip_width=7/>
+</composite>
+</save>
+
+<save id="counter_3_save" dst="out/counter_3" format="jpg" compress=5>
+<composite id="counter_3">
+	<recall srcid="black" clip_width=8 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=8/>
+	<recall srcid="counter_3_text" x=0 y=2/>
+</composite>
+</save>
+
+<save id="counter_4_save" dst="out/counter_4" format="jpg" compress=5>
+<composite id="counter_4">
+	<recall srcid="black" clip_width=8 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=8/>
+	<recall srcid="counter_4_text" x=0 y=2/>
+</composite>
+</save>
+
+<save id="counter_5_save" dst="out/counter_5" format="jpg" compress=5>
+<composite id="counter_5">
+	<recall srcid="black" clip_width=8 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=8/>
+	<recall srcid="counter_5_text" x=0 y=2/>
+</composite>
+</save>
+
+<save id="counter_6_save" dst="out/counter_6" format="jpg" compress=5>
+<composite id="counter_6">
+	<recall srcid="black" clip_width=10 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=10/>
+	<recall srcid="counter_6_text" x=1 y=2/>
+</composite>
+</save>
+
+<save id="counter_7_save" dst="out/counter_7" format="jpg" compress=5>
+<composite id="counter_7">
+	<recall srcid="black" clip_width=8 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=8/>
+	<recall srcid="counter_7_text" x=0 y=2/>
+</composite>
+</save>
+
+<save id="counter_8_save" dst="out/counter_8" format="jpg" compress=5>
+<composite id="counter_8">
+	<recall srcid="black" clip_width=10 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=10/>
+	<recall srcid="counter_8_text" x=0 y=2/>
+</composite>
+</save>
+
+<save id="counter_9_save" dst="out/counter_9" format="jpg" compress=5>
+<composite id="counter_9">
+	<recall srcid="black" clip_width=8 clip_height=21/>
+	<recall srcid="bottombar_back" x=0 clip_width=8/>
+	<recall srcid="counter_9_text" x=0 y=2/>
+</composite>
+</save>
+
+
+
+
+
+<recall srcid="menu_features"/>
+<recall srcid="corner_back"/>
+<recall srcid="title"/>
+<recall srcid="bottom_bar"/>
+

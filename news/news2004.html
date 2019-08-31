@@ -1,0 +1,67 @@
+<br>
+<b>December 1, 2004 - AfterStep 2.0.1 released!</b><ul><fieldset>
+This release features tons of fixes to different minor and major bugs. 
+<br>
+Wharf animation now works for any configuration. Mouse cursor are handled properly over titlebar buttons.
+Fixed focusing/unfocusing of windows in Pager. Pseudo transparency fixed for windows that are partly off-screen.
+Added configure option --disable-data-reinstall for faster reinstall. And many more.
+</fieldset></ul><br>
+<b>September 28, 2004 - AfterStep 2.0 Final released!</b><ul><fieldset>
+This release is considered very stable and fast, as the result of extensive debugging and optimization efforts. 
+<br>
+Ident module was implemented to aid in compilation of database entries. All the installed files are now catalogued in HTML format, 
+so that user can see the list of available images/fonts/etc. Documentation was updated for many parts, and will be installed in HTML and man formats for local browsing.
+Menus now allow navigation with keyboard. Wharf animation should now be smooth. Numerous bugs and crashes had been fixed.
+Remaining modules and documentation updates will be implemented and made available on bi-monthly schedule as point releases.
+</fieldset></ul><br>
+<b>August 17, 2004 - AfterStep 2.0 beta 5 released!</b><ul><fieldset>
+This release includes new advanced image storage to minimize memory footprint and fragmentation, which results
+in 90% memory use reduction.<br>
+Several new features are implemented, including outlined fonts, alpha sorted winlist menu, hiliting of focused Wharf button.<br>
+Wharf animation should now be smooth. Tiff format support had been significantly improved. Lots of stability fixes and improvements.<br>
+Another great development is new automated documentation module - ASDocGen. Configuration options are documented using pregenerated xml templates, and
+many different doc formats then could be generated automatically, including website docs in PHP format, HTML, man pages, XML, etc.<br>
+Animate module now works.<br>
+This should be the last beta release. Next stable release 2.00.00 is planned for early September. 
+Only critical bugfixes and documentation updates will go in before then. All the missing features, such as ascp and 
+modules, will be implemented after that, in point releases. AfterStep proper seems to have reached production level stability now, 
+so there is no reason to delay stable release any further.
+</fieldset></ul><br>
+<b>March 5, 2004 - AfterStep 2.0 beta 4b released!</b><ul><fieldset>
+This is a critical update to beta4 fixing segmantation fault on systems with LANG set to non-empty string. 
+Segmentation fault manifests itself in AfterStep not being able to start any module.
+</fieldset></ul><br>
+<b>March 4, 2004 - AfterStep 2.0 beta 4 released!</b><ul><fieldset>
+Continuing ironing out issues in AfterStep 2.0. Most interesting fixes include : 
+<ul>
+<LI>WinList and Pager no longer fight with each other for the space. Logic for AvoidCover windows had been greately improved.
+<LI>Java windows now show up with its entire area properly rendered. No more of this gray area on the bottom and right.
+There is still an issue with java not remembering its previous position properly, but that can't be helped. 
+One way to possibly fix this is to use DefaultGeometry setting in database file for specific windows.
+<LI>Logic had been implemented to run root background drawing without hindering responsivness of AfterStep,
+thus making desktop switching faster. Desktop switching is still somwhat slow due to conservative memory
+utilization approach, that AfterStep employs. I may implement additional code for caching root backgrounds
+on the X server, which should make things very fast at the expense of memory utilization.
+<LI>AfterStep now exports 2 more environment variables IMAGE_PATH and FONT_PATH based on its Base configuration.
+That allows you to view those XML image files using ascompose without much hurdles. just type:
+<br>
+ascompose -f filename
+<br>
+In any of term windows.
+<LI>ascompose can now run in interactive mode, allowing for animations to be displayed. Banner module had been replaced with shell script to utilize that.
+See this script for example of how ascompose could be used. Oh, yes, new banner had been designed  - see if you like it.
+<LI>Default screenshot compression ratio had been reduced to allow for much higher wuality screenshots to be generated.
+<LI>Numerous bugs were user had to select window to run functions had been fixed and now function will be 
+automatically run on focused window.
+<LI>Old AfterStep 1.8 look had been ported to 2.0 and you can now select it from Looks menu as look.Legacy.
+<LI>Annoying cursor disappearance bugs had been fixed by moving Cursor defitions back to feel file.
+<LI>feel.ICCCM had been ported from AfterStep 1.8. It has no additional key bindings making it Emacs friendly.
+</ul>
+<br>
+Documentation is still in dire need of being cleaned up and updated, and the plan right now is to convert it all into 
+DocBook XML. Anybody willing to help - let me know.
+<br><br>
+You can get this latest release from
+	<a href="ftp://ftp.afterstep.org/devel/AfterStep-2.00.beta4.tar.gz">ftp.afterstep.org/devel/AfterStep-2.00.beta4.tar.gz</a>.
+	Bug reports and feedback are always welcome.
+</fieldset></ul>
