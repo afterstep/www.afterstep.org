@@ -42,7 +42,7 @@ The purpose of the <a href="https://github.com/afterstep/afterstep/issues">Bug R
 <b>Web hosting :</b><ul>
 <p>
 If you find mistakes in or would like to suggest improvements to this website,
-please drop a comment in the <a href="https://sourceforge.net/projects/afterstep/forums/forum/35">AfterStep Discussion</a> forum.
+please open an issue for it <a href="https://github.com/afterstep/www.afterstep.org/issues">on github</a>.
 </p>
 </ul>
 
