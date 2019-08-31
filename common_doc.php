@@ -148,7 +148,7 @@ echo       "onLoad=\"MM_preloadImages('$image_path/cvs_site_btn_a.jpg','$image_p
      ?><? win_list_item("http://wiki.afterstep.org","AfterStep Wiki","wiki_site");
      ?><? win_list_item("http://windowmaker.org/dockapps","Dockapps.org","dockapps_site");
      ?><? win_list_item("http://tigr.net/afterstep/","Apps","apps_site");
-     ?><? win_list_item("http://cvs.aftercode.net/cgi-bin/viewcvs.cgi/afterstep-stable/","AfterStep CVS","cvs_site"); ?>
+     ?><? win_list_item("https://github.com/afterstep/afterstep/","AfterStep git","git_site"); ?>
   <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
   <TR>
     <TD align="left" valign=top>

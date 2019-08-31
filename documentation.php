@@ -29,10 +29,10 @@ Other things of possible interest:
 <ul>
 <li><b>New configuration options in AfterStep 2.0 ?</b><br>
 Please refer to the
-<A href="http://cvs.aftercode.net/cgi-bin/viewcvs.cgi/afterstep-stable/NEW?rev=HEAD&content-type=text/vnd.viewcvs-markup">
+<A href="https://raw.githubusercontent.com/afterstep/afterstep/master/NEW">
 NEW</A> file in AfterStep distribution.</li>
-<li>Detailed list of the bug fixes and changes to AfterStep can be found in <a href="http://cvs.aftercode.net/cgi-bin/viewcvs.cgi/afterstep-stable/ChangeLog?rev=HEAD&content-type=text/vnd.viewcvs-markup">Changelog</a>.<br>
-Short list of changes could be found
+<li>A detailed list of the bug fixes and changes to AfterStep can be found in <a href="https://raw.githubusercontent.com/afterstep/afterstep/master/ChangeLog">Changelog</a>.<br>
+Short list of changes can be found
 <? local_url("as20.php","here") ?>.
 </li>
 <li><b><? local_doc_url("visualdoc.php","Frequently Asked Questions for AfterStep 1.8.11","faq","1.8",$subunset); ?></b>
