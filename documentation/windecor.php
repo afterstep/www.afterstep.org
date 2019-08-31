@@ -41,7 +41,7 @@ if ($sub<>"")
  if ($sub=="frame")
     {
     echo "<br>See Also: ";
-    local_url("http://10.1.1.4/www.afterstep.org/visualdoc.php?show=MyFrame_options&src=MyFrame","MyFrame options");
+    local_url("visualdoc.php?show=MyFrame_options&src=MyFrame","MyFrame options");
     }
  if ($sub=="buttons")
     {
