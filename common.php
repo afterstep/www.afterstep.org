@@ -90,7 +90,7 @@ function pagestart($title) {
 <?
 
 echo '<body bgcolor="#333333" background="'.$image_path.'/background.jpg" text="#FFFFFE" leftmargin="5" topmargin="0" marginwidth="5" marginheight="0"';
-echo       "onLoad=\"MM_preloadImages('$image_path/cvs_site_btn_a.jpg','$image_path/aterm_site_btn_a.jpg','$image_path/apps_site_btn_a.jpg',
+echo       "onLoad=\"MM_preloadImages('$image_path/cvs_site_btn_a.jpg','$image_path/apps_site_btn_a.jpg',
                                       '$image_path/dockapps_site_btn_a.jpg','$image_path/devel_site_btn_a.jpg','$image_path/wao_site_btn_a.jpg','$image_path/wiki_site_btn_a.jpg','$image_path/bugtrack_site_btn_a.jpg')\">\n" ;
 ?>
      <?	
@@ -113,7 +113,6 @@ echo       "onLoad=\"MM_preloadImages('$image_path/cvs_site_btn_a.jpg','$image_p
         <tr><td><?	wharf_button("look.php","Looks and Themes","look" ) ?>				</td></tr>
 	<tr><td><?      wharf_button("graphics.php?show=index&amp;src=/desktop","Icons, Clipart, etc.","data" ) ?> </td></tr>
         <tr><td><?	wharf_button("mail.php","Mailing List and Contacts","mail" ) ?>			</td></tr>
-        <tr><td><?	wharf_button("aterm.php","aterm terminal emulator","aterm" ) ?>			</td></tr>
       </table>
     </td>
     <td align="center" valign="top" >

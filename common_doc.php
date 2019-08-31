@@ -142,7 +142,7 @@ function pagestart($title) {
 
 <?
 echo "<BODY bgcolor=\"#333333\" BACKGROUND=\"$image_path/background.jpg\" text=\"#FFFFFE\" leftmargin=\"5\" topmargin=\"0\" marginwidth=\"5\" marginheight=\"0\"" ;
-echo       "onLoad=\"MM_preloadImages('$image_path/cvs_site_btn_a.jpg','$image_path/aterm_site_btn_a.jpg','$image_path/apps_site_btn_a.jpg','$image_path/themes_site_btn_a.jpg','$image_path/devel_site_btn_a.jpg','$image_path/wao_site_btn_a.jpg')\">" ;
+echo       "onLoad=\"MM_preloadImages('$image_path/cvs_site_btn_a.jpg','$image_path/apps_site_btn_a.jpg','$image_path/themes_site_btn_a.jpg','$image_path/devel_site_btn_a.jpg','$image_path/wao_site_btn_a.jpg')\">" ;
 ?>
      <?	win_list_item("http://www.afterstep.org","Home","wao_site");
      ?><? win_list_item("http://wiki.afterstep.org","AfterStep Wiki","wiki_site");
@@ -161,7 +161,6 @@ echo       "onLoad=\"MM_preloadImages('$image_path/cvs_site_btn_a.jpg','$image_p
         <TR><TD><?	wharf_button("look.php","Looks and Themes","look" ) ?>				</TD></TR>
 	<TR><TD><?      wharf_button("graphics.php?show=index&src=/desktop","Icons, Clipart, etc.","data" ) ?> </TD></TR>
         <TR><TD><?	wharf_button("mail.php","Mailing List and Contacts","mail" ) ?>			</TD></TR>
-        <TR><TD><?	wharf_button("aterm.php","aterm terminal emulator","aterm" ) ?>			</TD></TR>
       </TABLE>
     </TD>
     <TD align=center valign=top>
