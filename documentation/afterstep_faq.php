@@ -285,13 +285,13 @@ The FTP site,
 The applets (asapps) that go with AfterStep are distributed separately.  The applet
 distribution is maintained by Albert Dorofeev, (&lt;tigr@tigr.net&gt;).  You can find the
 applets at 
-<A href="http://www.tigr.net/afterstep/as-apps/">http://www.tigr.net/afterstep/as-apps/</A>.
-RPMs for many an applet could be found here :
-<A href="http://www.afterstep.org/rpms/">http://www.afterstep.org/rpms/</A> 
+<A href="http://www.tigr.net/afterstep/applets/">http://www.tigr.net/afterstep/applets/</A>.
+RPMs for many an applet could be found here (outdated) :
+<A href="ftp://ftp.afterstep.org/stable/rpms/">ftp://ftp.afterstep.org/stable/rpms/</A> 
 </P>
 </DD>
 
-<DT class="dense"><B>Man pages.</B></DT>
+<DT class="dense"><B>Man pages</B></DT>
 <DD class="dense">
 <P class="dense">
 AfterStep installation comes with a set of man pages that attempt to cover all aspects of AfterStep configuration.
