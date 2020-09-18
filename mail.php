@@ -15,14 +15,13 @@ Come and hang out in the <code><a href="https://webchat.freenode.net/#afterstep"
 <br />
 <h3 id="users"><b>AfterStep Forums :</b></h3><ul>
 <p>
-There are two on-line forums at <a href="http://sourceforge.net/projects/afterstep">sourceforge.net</a> for discussing AfterStep. Only members of sourceforge.net can post, so you'll need to establish an <a href="https://sourceforge.net/user/registration">account</a>.
+There is an on-line forum at <a href="http://sourceforge.net/projects/afterstep">sourceforge.net</a> for discussing AfterStep. Only members of sourceforge.net can post, so you'll need to establish an <a href="https://sourceforge.net/user/registration">account</a>.
 </p>
 <p>
-The purpose of the Help forum is to provide help and solutions to issues related to using AfterStep. The Discussion forum is useful for discussing things related to AfterStep. 
+The purpose of the Help forum is to provide help and solutions to issues related to using AfterStep. 
 </p>
 <li><a href="https://sourceforge.net/projects/afterstep/forums/forum/36">AfterStep Help</a></li>
-<li><a href="https://sourceforge.net/projects/afterstep/forums/forum/35">AfterStep Discussion</a></li>
-</ul>
+<li><a href="https://sourceforge.net/projects/afterstep/forums/forum/35">AfterStep Discussion</a></li></ul>
 <hr>
 <br />
 <h3 id="bugs"><b>Bug Report Tracker :</b></h3><ul>
