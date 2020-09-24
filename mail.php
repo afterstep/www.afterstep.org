@@ -5,7 +5,7 @@ pagestart("Get in touch with us");
 active_section_start("mail_title_a.png");
 ?>
 <br />
-<b>IRC Chat and Support :</b><ul>
+<h3 id="irc"><b>IRC Chat and Support :</b></h3><ul>
 <p>
 Think you know it all? Have nothing better to do? Have a question? 
 Come and hang out in the <code><a href="https://webchat.freenode.net/#afterstep">#afterstep</a></code> channel on the <a href="https://www.freenode.net/">FreeNode IRC network</a>. Be polite and patient; it may take a while (or hours) to get a response.
