@@ -96,9 +96,6 @@ Alternatively, you may e-mail <a href="mailto:remco@webconquest.com">Remco Rijnd
 <p/>
 Also, if you're just wanting to submit a patch for Afterstep, please open a pull request at our github repository.
 </fieldset>
-<center>
-<script type="text/javascript" src="http://www.ohloh.net/projects/5561/widgets/project_partner_badge"></script>
-</center>
 <?
     }
 if ($show=="features") {
