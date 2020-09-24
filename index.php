@@ -54,13 +54,13 @@ come to appreciates its power and potential.
 <br />
 This website was designed to mimick the default look of AfterStep 2 as close as possible.
 All graphics have been rendered using <? local_url("visualdoc.php?show=ascompose","ascompose"); ?>, supplied with the AfterStep distribution.
-The entire clipart used to render graphics was taken from actuall files supplied with AfterStep.
+The entire clipart used to render graphics was taken from actual files supplied with AfterStep.
 <br />
 <br />Note that the ability to change the colorscheme of this website is mimicking one of the most interesting new features in AfterStep 2 -
 <? local_url("visualdoc.php?show=ColorScheme","Colorschemes"); ?>.
 <br />
 <br />The xml script used to render this site is available <a href="http://www.afterstep.org/xml.php/images/compose/look.Default.xml">here</a>.
-<br />Colorscheme definitions are availbale here :
+<br />Colorscheme definitions are available here :
 <a href="http://www.afterstep.org/xml.php/images/compose/Crimson.xml">Crimson</a>,
 <a href="http://www.afterstep.org/xml.php/images/compose/Deep_Red.xml">Deep Red</a>,
 <a href="http://www.afterstep.org/xml.php/images/compose/Gold_On_Blue.xml">Gold on Blue</a>,
@@ -81,7 +81,7 @@ Here is the <a href="http://www.afterstep.org/xml.php/images/compose/compose.sh.
 <fieldset>
 <center><b>Developer Positions Open!</b></center>
 <hr>
-We are currently accepting additional developers to AfterStep. Some of the areas open are:
+We are very open to accepting contributions to AfterStep. Some of the areas we can use help with are:
 <ul>
 <li>Coding</li>
 <li>Icons & Graphics</li>
@@ -91,16 +91,10 @@ We are currently accepting additional developers to AfterStep. Some of the areas
 </ul>
 <p/>
 If you're interested in helping out with AfterStep, please drop by our IRC channel on <a href="http://www.freenode.net/">Freenode</a>, #AfterStep .
-We're most active Mon-Fri 9am-5pm (Central US Time). Though, you may find some of us active during other hours of the day.
 <p/>
-Optionally, you may e-mail our Lead Project Manager, <a href="mailto:sasha@aftercode.net">Sasha Vasko</a>.
+Alternatively, you may e-mail <a href="mailto:remco@webconquest.com">Remco Rijnders</a>.
 <p/>
-Also, if you're just wanting to submit a patch for Afterstep, Please send a compressed (bz2, gz, etc) diff as an attachment to 
-<a href="mailto:sasha@aftercode.net">sasha@aftercode.net</a>
-<p>
-<i>as example using diff & bzip2:<br/>
-diff -Nur ... ... | bzip2 -9 > patchX.diff.bz2; mpack patchX.diff.bz2 sasha@aftercode.net</i>
-</p>
+Also, if you're just wanting to submit a patch for Afterstep, please open a pull request at our github repository.
 </fieldset>
 <center>
 <script type="text/javascript" src="http://www.ohloh.net/projects/5561/widgets/project_partner_badge"></script>
