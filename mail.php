@@ -38,7 +38,7 @@ The purpose of the <a href="https://github.com/afterstep/afterstep/issues">Bug R
 </ul>
 <hr>
 <br />
-<b>Web hosting :</b><ul>
+<h3 id="webhosting"><b>Web hosting :</b></h3><ul>
 <p>
 If you find mistakes in or would like to suggest improvements to this website,
 please open an issue for it <a href="https://github.com/afterstep/www.afterstep.org/issues">on github</a>.
