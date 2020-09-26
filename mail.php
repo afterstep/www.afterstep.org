@@ -20,8 +20,7 @@ There is an on-line forum at <a href="http://sourceforge.net/projects/afterstep"
 <p>
 The purpose of the Help forum is to provide help and solutions to issues related to using AfterStep. 
 </p>
-<li><a href="https://sourceforge.net/projects/afterstep/forums/forum/36">AfterStep Help</a></li>
-<li><a href="https://sourceforge.net/projects/afterstep/forums/forum/35">AfterStep Discussion</a></li></ul>
+<li><a href="https://sourceforge.net/projects/afterstep/forums/forum/36">AfterStep Help</a></li></ul>
 <hr>
 <br />
 <h3 id="bugs"><b>Bug Report Tracker :</b></h3><ul>
