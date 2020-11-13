@@ -76,7 +76,8 @@ function draw_menu_items($base) {
 </HEAD>
 <BODY BACKGROUND="images/background" TEXT=#000000 VLINK=#CCEEDD ALINK=#CCDDDD LINK=#FFFFEE topmargin="0" bottommargin="5" leftmargin="0" rightmargin="5" marginheight="0" marginwidth="0">
 <TABLE border=0 cellspacing=0 cellpadding=0>
-	  <TD colspan=2><IMG src="images/title" border=0 ALT="libAfterImage (current version is 1.07, released on 06/08/2005)" usemap="#title_map" width=590></TD>
+<TR>
+	  <TD colspan=2><IMG src="images/title" border=0 ALT="libAfterImage (current version is 1.20, released on January 15, 2010)" usemap="#title_map" width=590></TD>
 </TR>
 <TR><TD valign="top" rowspan=3>
 	  <IMG src="images/menu_title" border=0 ALT="AfterStep Window Manager URL" usemap="#menu_title_map"><br>
