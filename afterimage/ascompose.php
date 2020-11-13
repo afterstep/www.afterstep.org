@@ -36,10 +36,10 @@
 			<LI>TIFF  - via libtiff library (including alpha channel support).
 			</UL>
 			<font size=3>Examples</font><br><br>
-			This particular site has been rendered with ascompose from few template
-			images taken from <A href="http://www.guistuff.com">GUIStuff site</A>.<br>
-			The script used for rendering is available <A href="http://afterstep.sf.net/xml.php/afterimage/images/guistuff.com.0207/afterimage.xml">here</a>.<br>
-			Another script used for rendering screenshots images is <A href="http://afterstep.sf.net/xml.php/afterimage/images/screenshots/screenshots.xml">here</a>.<br>
+			This particular site has been rendered with ascompose using a couple of template
+			images taken from the now defunct www.guistuff.com website.<br>
+			The script used for rendering is available <a href="afterimage/images/guistuff.com.0207/afterimage.xml">here</a>.<br>
+			Another script used for rendering screenshots images is <a href="afterimage/images/screenshots/screenshots.xml">here</a>.<br>
 
 			The images used for rendering are available
 			<A href="images/compose/guistuff.com.0207">here</A> and
